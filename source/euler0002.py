@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+from eulerlib import is_even
+
 def main():
     '''main function'''
     a, b = 1, 2
@@ -9,12 +11,5 @@ def main():
             sumn += a
         a, b = b, a + b
     print(sumn)
-
-def is_even(num):
-    '''if num is even return true'''
-    if num % 2 == 0:
-        return True
-    else:
-        return False
 
 if __name__ == "__main__": main() 
