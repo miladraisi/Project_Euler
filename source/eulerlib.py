@@ -21,4 +21,3 @@ def reverse(num):
         sumn = sumn * 10 + num % 10
         num //= 10
     return sumn
-    
